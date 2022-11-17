@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lista de tarefas</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1> Página de treino de domínio de DOM</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <table class="lista-tarefas">
+                <tr class="lista-tarefa__linha">
+                    <th>tarefas </th>
+                    <th>data/horário </th>
+                    <th>prioridade </th>
+                </tr>
+                <tr class="lista-tarefa__linha">
+                    <td class="lista-tarefa__info-tarefa"> cabelo</td>
+                    <td class="lista-tarefa__info-data"> 26/11</td>
+                    <td class="lista-tarefa__info-prioridade"> alta</td>
+                </tr>
+            </table>
+        </div>
+
+        <form action="">
+
+            <div class="corpo">
+                <h1 class="titulo"> Adicionar nova tarefa </h1>
+                <form action="" class="adiciona-dados">
+                    <label for="nome"> Nome da tarefa</label>
+                        <input type="text" class="adiciona-dados__tarefa"
+                            name="tarefa">
+                    <label for="data">Data</label>
+                        <input type="text" class="adiciona-dados__data" name="data"> 
+                    <label for="prioridade">prioridade</label>
+                        <input type="text" class="adiciona-dados__prioridade"
+                            name="prioridade">
+                    <button class="adiciona-dados__submit"> criar tarefa</button>
+                </form>
+            </div>
+
+        </form>
+    </main>
+
+    <script src="./js/js.js"></script>
+
+</body>
+
+</html>
