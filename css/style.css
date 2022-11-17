@@ -1,0 +1,35 @@
+*{
+    max-width: 720px;
+    margin: 0 auto;
+}
+.cabecalho{
+    background-color: aquamarine;
+}
+.container{
+    margin: 25px;
+}
+.lista-tarefas{
+    border: 1px solid black;
+    text-align: center;
+    width: 600px;
+    display: flex;
+}
+
+td{border: 1px solid black;}
+tr{border: 1px solid black;}
+
+.titulo{
+    width: auto;
+    margin: 0 150px ;
+    text-align: center;
+}
+.corpo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+   
+    margin-top: 50px;
+    border-top: 1px solid black ;
+    flex-wrap: wrap;
+}
