@@ -1,4 +1,8 @@
 <h1> Treino-DOM</h1>
+
+![image](https://user-images.githubusercontent.com/108037292/233717808-1c8f16d7-d94b-4611-9a23-a7b7451ccce6.png)
+
+
 Exercício para consolidar conhecimento acerca da manipulação de objetos por meio do JavaScript
 
 
